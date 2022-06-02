@@ -10,9 +10,10 @@ function App() {
     <div className="App">
      <Navbar/>
      <Offers/>
-     <Filters/>
-     <Restaurants/> 
-
+     <section class="near-you">
+      <Filters/>
+      <Restaurants/> 
+     </section>
     </div>
   );
 }
