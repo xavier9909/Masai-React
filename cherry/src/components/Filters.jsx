@@ -2,23 +2,23 @@ import React from 'react'
 
 const Filters = () => {
   return (
-    <div class="container restaurants">
+    <div className="container restaurants">
             <h1>50 restaurants</h1>
-            <div class="restaurant-options">
-                <div class="restaurant-option">
+            <div className="restaurant-options">
+                <div className="restaurant-option">
                     Cost High to Lost
                 </div>
 
-                <div class="restaurant-option">
+                <div className="restaurant-option">
                     Cost Lost to High
                 </div>
-                <div class="restaurant-option">
+                <div className="restaurant-option">
                     Ratings
                 </div>
-                <div class="restaurant-option">
+                <div className="restaurant-option">
                     Delivery Time
                 </div>
-                <div class="restaurant-option">
+                <div className="restaurant-option">
                     Relevance
                 </div>
                 
