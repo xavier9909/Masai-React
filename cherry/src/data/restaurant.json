@@ -11,9 +11,9 @@
             "Combo",
             "Beverages"
         ],
-        "rating": "4.3",
-        "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "rating": "3",
+        "deliveryTiming": "3 min",
+        "costfortwo": 90,
         "offer": [
             "20% off",
             "Use Trynew"
@@ -31,9 +31,9 @@
             "Combo",
             "Beverages"
         ],
-        "rating": "4.3",
-        "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "rating": "1",
+        "deliveryTiming": "330 min",
+        "costfortwo": 1000,
         "offer": [
             "20% off",
             "Use Trynew"
@@ -51,9 +51,9 @@
             "Combo",
             "Beverages"
         ],
-        "rating": "4.3",
-        "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "rating": "2.5",
+        "deliveryTiming": "2 min",
+        "costfortwo": 300,
         "offer": [
             "20% off",
             "Use Trynew"
@@ -71,9 +71,9 @@
             "Combo",
             "Beverages"
         ],
-        "rating": "4.3",
-        "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "rating": "3.5",
+        "deliveryTiming": "1 min",
+        "costfortwo": 1,
         "offer": [
             "20% off",
             "Use Trynew"
@@ -93,7 +93,7 @@
         ],
         "rating": "4.3",
         "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "costfortwo": 200,
         "offer": [
             "20% off",
             "Use Trynew"
@@ -111,9 +111,9 @@
             "Combo",
             "Beverages"
         ],
-        "rating": "4.3",
-        "deliveryTiming": "33 min",
-        "costfortwo": "$200",
+        "rating": "4",
+        "deliveryTiming": "20 min",
+        "costfortwo": 20,
         "offer": [
             "20% off",
             "Use Trynew"
