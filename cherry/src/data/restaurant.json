@@ -1,6 +1,122 @@
-[{
-"image": "assets/restauran"
-
-
-
-}]
+[
+    {
+        "id": 1,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://raw.githubusercontent.com/riteshf/cherry/main/assets/offer1.jpeg",
+        "name": "Chaitanya Parathas",
+        "category": [
+            "North India",
+            "Punjabi",
+            "Chinese",
+            "Thalis",
+            "Combo",
+            "Beverages"
+        ],
+        "rating": "4.3",
+        "deliveryTiming": "33 min",
+        "costfortwo": "$200",
+        "offer": [
+            "20% off",
+            "Use Trynew"
+        ]
+    }
+]

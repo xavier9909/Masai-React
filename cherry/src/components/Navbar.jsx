@@ -1,11 +1,11 @@
 import React from 'react'
-
+import logo from "../assets/logo.svg"
 export const Navbar = (props) => {
     return (
 
         <section className="navbar">
             <div className="container">
-                <img className="logo" src="assets/logo.svg" />
+                <img className="logo" src={logo} />
                 <div className="location">
                     <span className="city"> {props.city}</span>
                     <span className="state">{props.state}, {props.country}</span>
