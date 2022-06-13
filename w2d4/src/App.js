@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import styles from './App.module.css'
+import styled from 'styled-components'
+const Appstyled = styled.div`
+text-align: center;
+`;
 function App() {
   return (
-    <div className={styles.App}>
+    <Appstyled>
         <h1>hello</h1>
-    </div>
+        </Appstyled>
   );
 }
 
