@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { CartContext } from '../context/Cartcontext'
 
 export const Cart = () => {
-    const {count,setcount} = useContext(CartContext)
+    let {count,setcount} = useContext(CartContext)
   return (
     <div>Cart
     
