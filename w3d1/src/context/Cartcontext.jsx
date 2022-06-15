@@ -5,6 +5,12 @@ export const CartContext = createContext()
 export const CartPorvider = ({ children }) => {
 
 const [count,setcount] = useState(0)
+const buy = ()=>{
+
+
+
+    
+}
     return <>
 
 
