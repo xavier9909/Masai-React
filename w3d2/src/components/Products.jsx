@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 export const Products = () => {
     const [products,setproducts] = useState([])
@@ -14,15 +14,16 @@ export const Products = () => {
   return (
     <div>Products :{" "}
     
-    
+    <div  style={{display : "grid" ,gridTemplateColumns: "1fr 1fr"} } >
     <div>
         {products.map((p)=>(
-
+     
           <div key={p.id} >
           <Link to={`/products/${p.id}`}>{p.name}</Link>
           </div>)
           
-        )}
+        )}</div>
+        <Outlet></Outlet>
     </div>
     
     
