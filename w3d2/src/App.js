@@ -5,6 +5,8 @@ import { Home } from './components/Home';
 import { Products } from './components/Products';
 import { About } from './components/About';
 import {Routes,Route} from "react-router-dom"
+import { Prooduct } from './components/Prooduct';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
     <Route path="/" element ={<Home/>}/>
     <Route path="/about" element ={<About/>}/>
     <Route path="/products" element ={<Products/>}/>
+    <Route path="/products/:id" element ={<Prooduct/>}/>
    </Routes>
  
     </div>
