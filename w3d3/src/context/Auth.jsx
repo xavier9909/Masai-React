@@ -1,16 +1,17 @@
 import { createContext, useState } from "react";
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 
 export const Authcontext  =createContext()
 export const AuthProvider   = ({children})=>{
 const [isAuth,setAuth] = useState(false)
+const {state} = useLocation()
 const navigate = useNavigate()
 const login =()=>{
 
 setAuth(true)
-navigate("/feeds")
+navigate(state.from)
 
 }
 const logout =()=>{
