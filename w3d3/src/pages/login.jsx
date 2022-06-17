@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { Authcontext } from '../context/Auth'
 
 export const Login = () => {
   const [logincred,setcreds] = useState({})
+  const {login} = useContext(Authcontext)
   const Change = (e)=>{
     const {name ,value}  = e.target
     setcreds({
@@ -11,6 +13,7 @@ export const Login = () => {
   }
   const HandleSubmit = (e)=>{
     e.preventDefault();
+    login()
 console.log(logincred);
   }
   return (

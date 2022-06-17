@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {Link, useNavigate} from "react-router-dom"
+import { Authcontext } from '../context/Auth'
 export const Navbar = () => {
   const navigate = useNavigate()
-  const handleclick = ()=>{
-  navigate("/login")
+  const Handleclick = ()=>{
+  if(isAuth)
+  {
+   logout()
+  
   }
+  else{navigate("/login")}
+ 
+  }
+  const {isAuth,logout} = useContext(Authcontext)
+  
   return (
     <div>Navbar :
     
@@ -12,7 +21,7 @@ export const Navbar = () => {
     
     <Link to="/Feeds" >Feeds</Link>
 
-    <button onClick={handleclick}  >Login</button>
+    <button onClick={Handleclick}  >{isAuth ? "logout":"login"}</button>
     </div>
   )
 }
