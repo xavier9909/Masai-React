@@ -5,8 +5,8 @@ import { Authcontext } from '../context/Auth'
 export const RequireAuth = ({children}) => {
     const {isAuth} = useContext(Authcontext)
     if(isAuth){
-        return children
+        return children;
     }
-    else { <Navigate to="/login" />}
+    else { return  <Navigate to="/login" />}
 
 }

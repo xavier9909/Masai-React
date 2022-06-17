@@ -20,6 +20,7 @@ export const Navbar = () => {
     <Link to=""  >Home</Link>
     
     <Link to="/Feeds" >Feeds</Link>
+    <Link to="/Post" >Post</Link>
 
     <button onClick={Handleclick}  >{isAuth ? "logout":"login"}</button>
     </div>
