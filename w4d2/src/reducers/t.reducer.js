@@ -1,8 +1,36 @@
-import { TUpdate,TDelete,Add_Todo,Complete_Todo} from "../actions/action.type";
+import { TUpdate,TDelete,Add_Todo,Complete_Todo, GET_TODO, SUCCESS, ERROR, LOADING} from "../actions/action.type";
 
-export const  treducer = (state = {todos  : []},{ type ,payload})=>{
+
+const initialstate = {
+    loading : false,
+    erorr:false,
+    todos:[]
+}
+
+export const  treducer = (state = initialstate,{ type ,payload})=>{
 
 switch (type){
+    case SUCCESS : {
+         return {
+            ...state,
+            loading: false,
+            todos: payload
+         }
+    }
+    case ERROR :{
+        return {
+            ...state,
+            loading :false,
+           error:true   
+         }
+    }
+    case LOADING :{
+        return {
+            ...state,
+          loading :true
+         }
+         
+    }
     case Complete_Todo:{ 
        
         let newTodos = state.todos.map((todo) => {

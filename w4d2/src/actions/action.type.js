@@ -1,8 +1,11 @@
 export const Counter_Increment = "counter/increment"
 export const Counter_Decrement = "counter/Decrement"
 
-
+export const GET_TODO = "todo/get"
 export const Add_Todo = "todo/add"
+export const ERROR = "todo/error"
+export const SUCCESS = "todo/success"
+export const LOADING = "todo/loading"
 export const Complete_Todo = "todo/complete"
 export const TDelete = "todo/delete"
 export const TUpdate = "todo/update"

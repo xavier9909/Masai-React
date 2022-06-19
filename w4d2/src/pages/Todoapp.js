@@ -2,10 +2,15 @@ import React, { useRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Add } from '../actions/action'
 import  {v4 as uuid} from "uuid"
+import axios from "axios"
+import { getTodos } from '../actions/action'
+import { useEffect } from 'react'
 export const Todoapp = () => {
   const dispatch = useDispatch()
-  const todos = useSelector((state)=>state.todo.todos)
+  const {loading,error,todos} = useSelector((state)=>state.todo)
   const ref = useRef()
+
+
   const addNew = (()=>{
     let value = ref.current.value
 dispatch(Add({
@@ -16,6 +21,15 @@ dispatch(Add({
 
 
   })
+  useEffect(()=>{
+    getTodos(dispatch);
+  },[])
+ if(loading){
+return <h1>loading.....</h1>
+ }
+ if(error){
+ return  <h1>error.....</h1>
+ }
   return (
     <div>Todoapp
     <div>
